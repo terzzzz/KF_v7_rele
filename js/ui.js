@@ -2194,9 +2194,12 @@
         text-shadow: 0 0 14px rgba(255, 42, 109, 0.45), 0 2px 4px rgba(0, 0, 0, 0.9) !important;
       }
 
-      .rider-subtext {
+   .rider-subtext {
         display: inline-flex;
         align-items: center;
+        align-self: flex-start !important;
+        width: fit-content !important;
+        max-width: max-content !important;
         font-family: var(--kf-hud-font-display) !important;
         font-size: clamp(0.58rem, 1.1vw, 0.7rem) !important;
         font-weight: 800 !important;
@@ -2210,6 +2213,7 @@
       }
 
       .p2-hud .rider-subtext {
+        align-self: flex-end !important;
         margin-left: auto;
       }
 
